@@ -1,0 +1,11 @@
+{
+  "name": "Mapbox Dynamic Map",
+  "description": "Create a dynamic map with a radius overlay using Mapbox.",
+  "author": "Mauricio Paz <mauricio@lowcode.agency>, Thinh Dinh <thinh@lowcode.agency>",
+  "params": [
+    {"name": "centerString", "displayName": "Centro del Mapa", "type": "string"},
+    {"name": "radius", "displayName": "Radio", "type": "number"},
+    {"name": "zoom", "displayName": "Nivel de Zoom", "type": "number"}
+  ],
+  "result": {"type": "string"}
+}
